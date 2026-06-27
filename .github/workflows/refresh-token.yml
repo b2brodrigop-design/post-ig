@@ -1,0 +1,26 @@
+name: Renovar token Instagram
+
+# Token de 60 dias se renova sozinho. Roda toda semana (sobra folga).
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # toda segunda 03:00 BRT
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Renovar e regravar o secret IG_TOKEN
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}   # PAT com permissao de gravar Secrets
+        run: |
+          NOVO=$(node refresh_token.js)
+          if [ -z "$NOVO" ]; then echo "falhou"; exit 1; fi
+          echo "$NOVO" | gh secret set IG_TOKEN --repo "${{ github.repository }}"
+          echo "IG_TOKEN atualizado."

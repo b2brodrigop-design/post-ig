@@ -1,0 +1,64 @@
+name: Postar no Instagram
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # 09:00 BRT  -> saude
+    - cron: '0 16 * * *'   # 13:00 BRT  -> seguros
+    - cron: '0 21 * * *'   # 18:00 BRT  -> consorcio
+  workflow_dispatch:
+    inputs:
+      nicho:
+        description: 'Nicho para postar manualmente'
+        required: false
+        type: choice
+        options: [saude, seguros, consorcio]
+
+permissions:
+  contents: write   # pra gravar fila.json de volta
+
+concurrency:
+  group: postar
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Decidir nicho
+        id: nicho
+        run: |
+          if [ -n "${{ inputs.nicho }}" ]; then
+            echo "nicho=${{ inputs.nicho }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              '0 12 * * *') echo "nicho=saude" >> "$GITHUB_OUTPUT" ;;
+              '0 16 * * *') echo "nicho=seguros" >> "$GITHUB_OUTPUT" ;;
+              '0 21 * * *') echo "nicho=consorcio" >> "$GITHUB_OUTPUT" ;;
+              *) echo "nicho=saude" >> "$GITHUB_OUTPUT" ;;
+            esac
+          fi
+
+      - name: Publicar
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          REPO_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
+        run: node publicar.js ${{ steps.nicho.outputs.nicho }}
+
+      - name: Salvar fila.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet fila.json; then
+            git add fila.json
+            git commit -m "auto: postado ${{ steps.nicho.outputs.nicho }} ($(date +%F))"
+            git push
+          else
+            echo "nada mudou na fila"
+          fi
