@@ -1676,5 +1676,41 @@
     ],
     "postado": false,
     "data": null
+  },
+  {
+    "pasta": "saude/19",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png",
+      "resposta-05.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/19",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png",
+      "resposta-05.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/19",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png",
+      "resposta-05.png"
+    ],
+    "postado": false,
+    "data": null
   }
 ]
