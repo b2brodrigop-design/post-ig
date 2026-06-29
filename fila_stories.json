@@ -28,8 +28,16 @@
       "resposta-05.png",
       "resposta-06.png"
     ],
-    "postado": false,
-    "data": null
+    "postado": true,
+    "data": "2026-06-29",
+    "media_ids": [
+      "18216490588332495",
+      "18602145559000585",
+      "18106817231069427",
+      "18121031035794000",
+      "17910154245424386",
+      "18075334556676707"
+    ]
   },
   {
     "pasta": "03",
@@ -41,8 +49,16 @@
       "resposta-05.png",
       "resposta-06.png"
     ],
-    "postado": false,
-    "data": null
+    "postado": true,
+    "data": "2026-06-29",
+    "media_ids": [
+      "18022416932848598",
+      "18196540297371473",
+      "17873050620620646",
+      "18092933201029286",
+      "17886419343597283",
+      "17917772325405656"
+    ]
   },
   {
     "pasta": "04",
@@ -1709,6 +1725,501 @@
       "resposta-03.png",
       "resposta-04.png",
       "resposta-05.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/20",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/21",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/22",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/23",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/24",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/25",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/26",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/27",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/28",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/29",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/30",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/31",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/32",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/33",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "saude/34",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/20",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/21",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/22",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/23",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/24",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/25",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/26",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/27",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/28",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/29",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/30",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/31",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/32",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/33",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "seguros/34",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/20",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/21",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/22",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/23",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/24",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/25",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/26",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/27",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/28",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/29",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/30",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/31",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/32",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/33",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
+    ],
+    "postado": false,
+    "data": null
+  },
+  {
+    "pasta": "consorcio/34",
+    "stories": [
+      "resposta-01.png",
+      "resposta-02.png",
+      "resposta-03.png",
+      "resposta-04.png"
     ],
     "postado": false,
     "data": null
